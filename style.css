@@ -9,7 +9,13 @@ h2 {
 }
 h3 {
     text-align: center;
-}.sidebar {
+    font-weight: 300;
+}
+h4 {
+  text-align: center;
+  font-weight: 100;
+}
+.sidebar {
     height: 100%;
     width: 150px;
     position: absolute;
@@ -26,3 +32,10 @@ h3 {
     margin-left: 150px;
     font-size: 18px;
   }
+  .ulist {
+    text-align: center;
+  }
+  .ulist > ul {
+    display:inline-block
+  }
+  
