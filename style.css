@@ -1,5 +1,6 @@
 h1 {
-    text-align: center;
+  text-align: left;
+  font-size: 60px;
 }
 p {
   padding-left: 225px;
@@ -14,23 +15,146 @@ h3 {
 h4 {
  
   font-weight: 100;
-  padding-left: 225px;
+  padding-left: 235px;
 }
 .sidebar {
-    height: 100%;
+    height:700px;
     width: 200px;
     position: absolute;
     left: 0;
-    top: 0;
-    background-color:darkorchid;
+    top: 200px;
+    background-image: linear-gradient( to right, purple, darkorchid);
   }
   .sidebar div {
-    padding: 8px;
+    padding: 10px;
     font-size: 24px;
     display: block;
-    padding-left: 0px;
+    padding-left: 10px;
+    text-align: center;
   }
-  .ulist {
-   padding-left: 200px;
+  .emplist {
+   padding-left: 225px;
   }
-  
+  .edulist{
+   padding-left: 225px;
+  }
+  .proficiency{
+    width: 155px;
+    border-style: solid;
+  }
+  .cfiller{
+    width: 116px;
+    background-color: black;
+    position: absolute;
+    top: 215px
+  }
+  .pffiller{
+    width: 157px;
+    background-color: black;
+    position: absolute;
+    top: 257.5px
+  }
+  .tfiller{
+    width: 116px;
+    background-color: black;
+    position: absolute;
+    top: 300px
+  }
+  .engfiller {
+    width: 157px;
+    background-color: black;
+    position: absolute;
+    top: 512px
+  }
+  .frfiller {
+    width: 116px;
+    background-color: black;
+    position: absolute;
+    top: 574px
+  }
+  .box1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 200px;
+  width: 200px;
+  background-color:darkorchid;
+  z-index: 50;
+  }
+  .box2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    background-color: darkorchid;
+    z-index: 50;
+    }
+  .mainbody{
+    padding-top: 182px;
+  }
+  .circle1 {
+    position: absolute;
+    left: 40px;
+    top: 0;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background: darkorchid;
+    z-index: 50;
+  }
+  .circle2 {
+    position: absolute;
+    left: 175px;
+    top: 30px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+    display: block;
+    z-index: 50;
+  }
+  .circle3 {
+    position: absolute;
+    left: 230px;
+    top: 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+    display: block;
+    z-index: 50;
+  }
+.circle4 {
+    position: absolute;
+    left: 300px;
+    top: 0;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color:  darkorchid;
+    display: block;
+    z-index: 50;
+  }
+  .circle5 {
+    position: absolute;
+    left: 350px;
+    top: 0;
+    border-radius: 50%;
+    height: 60px;
+    width: 80px;
+    background-color:  darkorchid;
+    display: block;
+    z-index: 50;
+  }
+  .walker {
+    font-size: 70px;
+    z-index: 100;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+  }
+  .date {
+    color: grey;
+  }
