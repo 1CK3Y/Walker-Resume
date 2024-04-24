@@ -18,7 +18,7 @@ h4 {
   padding-left: 235px;
 }
 .sidebar {
-    height:630px;
+    height:1120px;
     width: 200px;
     position: absolute;
     left: 0;
@@ -26,10 +26,9 @@ h4 {
     background-image: linear-gradient( to right, purple, darkorchid);
   }
   .sidebar div {
-    padding: 10px;
-    font-size: 24px;
-    display: block;
-    padding-left: 10px;
+    padding: 26px;
+    font-size: 33px;
+    padding-left: 26px;
     text-align: center;
   }
   .emplist {
@@ -162,5 +161,11 @@ h4 {
     padding-left: 225px;
   }
   .sidebarheading {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .html, body {
+    width: 826px
+  }
+  .Goodbye {
+    font-size: 50px;
   }
