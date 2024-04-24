@@ -52,7 +52,7 @@ h4 {
     width: 157px;
     background-color: black;
     position: absolute;
-    top: 257.5px
+    top: 25px
   }
   .tfiller{
     width: 116px;
@@ -61,16 +61,16 @@ h4 {
     top: 300px
   }
   .engfiller {
-    width: 157px;
+    width: 160px;
     background-color: black;
     position: absolute;
-    top: 512px
+    top: 509px
   }
   .frfiller {
     width: 116px;
     background-color: black;
     position: absolute;
-    top: 574px
+    top: 572px
   }
   .box1 {
   position: absolute;
