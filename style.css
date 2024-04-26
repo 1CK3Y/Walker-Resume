@@ -18,18 +18,12 @@ h4 {
   padding-left: 235px;
 }
 .sidebar {
-    height:1120px;
+    height:1200px;
     width: 200px;
     position: absolute;
     left: 0;
     top: 200px;
     background-image: linear-gradient( to right, purple, darkorchid);
-  }
-  .sidebar div {
-    padding: 26px;
-    font-size: 33px;
-    padding-left: 26px;
-    text-align: center;
   }
   .emplist {
    padding-left: 225px;
@@ -39,42 +33,55 @@ h4 {
   }
   .proficiency{
     width: 155px;
+    height: 15px;
+    position: absolute;
+    left: 20px;
     border-style: solid;
   }
   .cfiller{
     width: 116px;
     background-color: black;
     position: absolute;
-    top: 212px
+    top: 370px;
+    left: 20px;
+    height: 16px;
   }
   .pffiller{
     width: 158px;
     background-color: black;
     position: absolute;
-    top: 255px
+    top: 442px;
+    left: 20px;
+    height: 16px;
   }
   .tfiller{
     width: 116px;
+    height: 16px;
     background-color: black;
     position: absolute;
-    top: 298px
+    top: 536px;
+    left: 20px;
   }
   .engfiller {
     width: 160px;
     background-color: black;
     position: absolute;
-    top: 509px
+    top: 868px;
+    left: 20px;
+    height: 16px;
   }
   .frfiller {
     width: 116px;
     background-color: black;
     position: absolute;
-    top: 572px
+    top: 940px;
+    left: 20px;
+    height: 16px;
   }
   .box1 {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 1200px;
   height: 200px;
   width: 200px;
   background-color:darkorchid;
@@ -162,6 +169,9 @@ h4 {
   }
   .sidebarheading {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    font-size: 33px;
+    padding-top: 50px;
   }
   .html, body {
     width: 826px
@@ -169,3 +179,89 @@ h4 {
   .Goodbye {
     font-size: 50px;
   }
+
+  .sidebartext {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .barheading {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.bbox1 {
+position: absolute;
+left: 0;
+top: 0;
+height: 200px;
+width: 200px;
+background-color:darkorchid;
+z-index: 50;
+}
+.bbox2 {
+  position: absolute;
+  left: 0;
+  top: 1200;
+  height: 40px;
+  width: 100%;
+  background-color: darkorchid;
+  z-index: 50;
+  }
+.bcircle1 {
+  position: absolute;
+  left: 40px;
+  top: 1200px;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background: darkorchid;
+  z-index: 50;
+}
+.bcircle2 {
+  position: absolute;
+  left: 175px;
+  top: 1300px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: darkorchid;
+  display: block;
+  z-index: 50;
+}
+.bcircle3 {
+  position: absolute;
+  left: 230px;
+  top: 1300px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: darkorchid;
+  display: block;
+  z-index: 50;
+}
+.bcircle4 {
+  position: absolute;
+  left: 300px;
+  top: 0;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  background-color:  darkorchid;
+  display: block;
+  z-index: 50;
+}
+.bcircle5 {
+  position: absolute;
+  left: 350px;
+  top: 0;
+  border-radius: 50%;
+  height: 60px;
+  width: 80px;
+  background-color:  darkorchid;
+  display: block;
+  z-index: 50;
+}
