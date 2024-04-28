@@ -37,20 +37,24 @@ h4 {
     position: absolute;
     left: 20px;
     border-style: solid;
+    position: absolute;
+    left: 20px;
   }
   .cfiller{
-    width: 116px;
+    width: 158px;
+    height: 20px;
     background-color: black;
     position: absolute;
-    top: 370px;
+    top: 373px;
     left: 20px;
     height: 16px;
   }
   .pffiller{
     width: 158px;
+    height: 20px;
     background-color: black;
     position: absolute;
-    top: 442px;
+    top: 445px;
     left: 20px;
     height: 16px;
   }
@@ -59,22 +63,24 @@ h4 {
     height: 16px;
     background-color: black;
     position: absolute;
-    top: 536px;
+    top: 540px;
     left: 20px;
   }
   .engfiller {
     width: 160px;
+    height: 20px;
     background-color: black;
     position: absolute;
-    top: 868px;
+    top: 874px;
     left: 20px;
     height: 16px;
   }
   .frfiller {
     width: 116px;
+    height: 20px;
     background-color: black;
     position: absolute;
-    top: 940px;
+    top: 946px;
     left: 20px;
     height: 16px;
   }
@@ -174,7 +180,7 @@ h4 {
     padding-top: 50px;
   }
   .html, body {
-    width: 826px
+    width: 830px
   }
   .Goodbye {
     font-size: 50px;
@@ -205,7 +211,7 @@ z-index: 50;
 .bbox2 {
   position: absolute;
   left: 0;
-  top: 1200;
+  top: 1380px;
   height: 40px;
   width: 100%;
   background-color: darkorchid;
@@ -214,7 +220,7 @@ z-index: 50;
 .bcircle1 {
   position: absolute;
   left: 40px;
-  top: 1200px;
+  top: 1220px;
   border-radius: 50%;
   height: 200px;
   width: 200px;
@@ -235,32 +241,32 @@ z-index: 50;
 .bcircle3 {
   position: absolute;
   left: 230px;
-  top: 1300px;
+  top: 1330px;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   background-color: darkorchid;
   display: block;
   z-index: 50;
 }
 .bcircle4 {
   position: absolute;
-  left: 300px;
-  top: 0;
+  left: 290px;
+  top: 1350px;
   border-radius: 50%;
-  height: 80px;
-  width: 80px;
+  height: 40px;
+  width: 40px;
   background-color:  darkorchid;
   display: block;
   z-index: 50;
 }
 .bcircle5 {
   position: absolute;
-  left: 350px;
-  top: 0;
+  left: 320px;
+  top: 1366px;
   border-radius: 50%;
-  height: 60px;
-  width: 80px;
+  height: 30px;
+  width: 40px;
   background-color:  darkorchid;
   display: block;
   z-index: 50;
