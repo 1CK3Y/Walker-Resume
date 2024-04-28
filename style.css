@@ -94,10 +94,12 @@ h4 {
   z-index: 50;
   }
   .box2 {
+    position: absolute;
     left: 0;
     top: 0;
     height: 40px;
-    width: 830px;
+    min-width: 830px;
+    max-width: 830px;
     background-color: darkorchid;
     z-index: 50;
     }
@@ -180,6 +182,7 @@ h4 {
   }
   .html, body {
     width: 830px
+
   }
   .Goodbye {
     font-size: 50px;
@@ -208,12 +211,13 @@ background-color:darkorchid;
 z-index: 50;
 }
 .bbox2 {
-  left: 0;
+  position: absolute;
+  left: 0px;
   top: 1380px;
   height: 40px;
-  width: 830px;
+  min-width: 830px;
+  max-width: 830px;
   background-color: darkorchid;
-  z-index: 50;
   }
 .bcircle1 {
   position: absolute;
