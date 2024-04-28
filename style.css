@@ -94,11 +94,10 @@ h4 {
   z-index: 50;
   }
   .box2 {
-    position: absolute;
     left: 0;
     top: 0;
-    height: 10px;
-    width: 100px;
+    height: 40px;
+    width: 830px;
     background-color: darkorchid;
     z-index: 50;
     }
@@ -209,11 +208,10 @@ background-color:darkorchid;
 z-index: 50;
 }
 .bbox2 {
-  position: absolute;
   left: 0;
   top: 1380px;
-  height: 10px;
-  width: 100px;
+  height: 40px;
+  width: 830px;
   background-color: darkorchid;
   z-index: 50;
   }
