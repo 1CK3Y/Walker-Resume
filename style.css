@@ -41,29 +41,29 @@ h4 {
     left: 20px;
   }
   .cfiller{
-    width: 158px;
+    width: 120px;
     height: 20px;
     background-color: black;
     position: absolute;
-    top: 37px;
+    top: 370px;
     left: 20px;
     height: 16px;
   }
   .pffiller{
-    width: 158px;
+    width: 160px;
     height: 20px;
     background-color: black;
     position: absolute;
-    top: 44.2px;
+    top: 442px;
     left: 20px;
     height: 16px;
   }
   .tfiller{
-    width: 116px;
+    width: 120px;
     height: 16px;
     background-color: black;
     position: absolute;
-    top: 53.7px;
+    top: 537px;
     left: 20px;
   }
   .engfiller {
@@ -72,15 +72,15 @@ h4 {
     background-color: black;
     position: absolute;
     top: 869px;
-    left: 2px;
+    left: 20px;
     height: 16px;
   }
   .frfiller {
-    width: 116px;
+    width: 120px;
     height: 20px;
     background-color: black;
     position: absolute;
-    top: 94px;
+    top: 940px;
     left: 20px;
     height: 16px;
   }
